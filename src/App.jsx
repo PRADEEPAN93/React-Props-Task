@@ -78,51 +78,6 @@ export default App;
 
 
 
-// import React from "react";
-// import User from "./Components/User";
-// import "./App.css";
 
-// function App() {
-//   return (
-//     // <>
-//     //   {/* <h1>Profile Card Project in React</h1> */}
-//     //   <User
-//     //     name="Rainer"
-//     //     city="New York"
-//     //     description="Front-End Developer"
-//     //     skills={[
-//     //       "UI/UX",
-//     //       "FRONT-END DEVELOPER",
-//     //       "HTML 5",
-//     //       "CSS 3",
-//     //       "JAVASCRIPT",
-//     //       "REACT.JS",
-//     //       "NODE.JS",
-//     //     ]}
-//     //     online={true}
-        
-//     //     profile={"./src/assets/human 1.1.jpg"}
-//     //   />
-    
-//     // </>
-
-//     <>
-//     <User />
-//     {
-//     userData.map((user, index)=>(
-//       <User key={index} name={user.name} 
-//       city={user.city}
-//       description={user.description}
-//       online={user.online}
-//       profile={user.profile}
-//       skill = {user.skill}
-//       />
-//     ))}
-    
-//     </>
-//   );
-// }
-
-// export default App;
 
 
