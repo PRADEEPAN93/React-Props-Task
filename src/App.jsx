@@ -2,9 +2,9 @@ import React from "react";
 import User from "./Components/User";
 import "./App.css";
 
-import human1 from "./assets/human 1.jpg";
-import human2 from "./assets/human 2.jpg";
-import human3 from "./assets/human 3.jpg";
+import human1 from "./assets/human1.jpg";
+import human2 from "./assets/human2.jpg";
+import human3 from "./assets/human3.jpg";
 
 const userData = [
   {
