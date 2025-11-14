@@ -1,8 +1,10 @@
-// import PropTypes from "prop-types";
-
 import React from "react";
 import User from "./Components/User";
 import "./App.css";
+
+import human1 from "./assets/human 1.jpg";
+import human2 from "./assets/human 2.jpg";
+import human3 from "./assets/human 3.jpg";
 
 const userData = [
   {
@@ -19,7 +21,7 @@ const userData = [
       "NODE.JS",
     ],
     online: true,
-    profile:"./src/assets/human 1.1.jpg",
+    profile: human1,
   },
   {
     name: "Max",
@@ -34,7 +36,7 @@ const userData = [
       "AZURE",
     ],
     online: false,
-   profile:"./src/assets/human 2.jpg"
+    profile: human2,
   },
   {
     name: "John",
@@ -50,15 +52,13 @@ const userData = [
       "AZURE",
     ],
     online: true,
-    profile:"./src/assets/human 3.jpg",
+    profile: human3,
   },
 ];
 
 function App() {
   return (
     <>
-      {/* <h1>Profile Card Project in React</h1> */}
-
       {userData.map((user, index) => (
         <User
           key={index}
@@ -75,9 +75,3 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
